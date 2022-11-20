@@ -1,0 +1,750 @@
+body {
+    background-color: black;
+}
+
+.nav {
+    margin: 0 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#navbar {
+    margin-right: auto;
+
+}
+
+#navbar h2 {
+    display: inline-block;
+    margin-right: 50px;
+    color: white;
+}
+
+#navbar2{
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+#navbar2 a {
+    padding: 0px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar2 a:hover {
+    color: rgb(255, 165, 30);
+
+}
+
+.color {
+    color: rgb(255, 165, 30)
+}
+
+.button {
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: rgba(244, 199, 19, 0.947);
+    color: white;
+    border: none;
+    box-shadow: 0px 12px 20px rgb(255, 165, 30);
+
+}
+
+.button:hover {
+    color: rgba(244, 199, 19, 0.947);
+    background-color: white;
+}
+
+.firstsec {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.left {
+    width: 500px;
+    margin-bottom: 140px;
+}
+
+.left h1 {
+    font-size: 50px;
+}
+
+.left p {
+    margin-bottom: 50px;
+}
+
+.right {
+    width: 500px;
+}
+
+.hire {
+    width: 150px;
+}
+
+.icons {
+    /* margin-left: ; */
+    /* margin-bottom: 20px; */
+    margin-top: 200px;
+
+}
+
+.icons i {
+    padding: 0px 20px;
+    ;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 300px 200px 200px 200px;
+    grid-template-columns: 300px 200px 200px 50px 200px 50px;
+    margin-left: 180px;
+}
+
+.abc1 {
+    grid-column: 1/3;
+    /* background-color: aqua; */
+}
+
+.abc1 h1 {
+    font-size: 50px;
+
+}
+
+.abc2 {
+    grid-column: 5/7;
+    grid-row: 1/3;
+    /* background-color: blue; */
+    animation: slide1 1.5s;
+    /* background-color: white; */
+
+}
+
+.abc3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.abc4 {
+    grid-column: 2/3;
+    grid-row: 2/4;
+    animation: slide 1.5s;
+}
+
+.abc5 {
+    grid-column: 4/6;
+    grid-row: 3/5;
+    animation: slide1 1.5s;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-110px);
+    }
+
+    100% {
+        transform: translateX();
+    }
+}
+
+@keyframes slide1 {
+    0% {
+        transform: translateX(110px);
+    }
+
+    100% {
+        transform: translateX();
+    }
+}
+
+.abc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.abc img {
+    transform: scale(1.8);
+    padding-top: 50px;
+    ;
+}
+
+.abc p {
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+.abc img {
+    height: 50px;
+
+}
+
+.cv {
+    width: 180px;
+    position: relative;
+    top: 50px;
+    margin-left: 20px;
+
+}
+
+.emojis {
+    height: 300px;
+    width: 220px;
+    border-radius: 15px;
+    ;
+    background-color: white;
+}
+
+.learn {
+    height: 50px;
+    width: 120px;
+    color: rgb(65, 179, 255);
+    font-size: 19px;
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-left: 21%;
+}
+
+.learn:hover {
+    transform: scale(1.1);
+}
+
+* {
+    /* border: 1px solid red; */
+}
+
+.experience {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.exp {
+    font-size: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 20px auto;
+    height: 100px;
+    width: 100px;
+}
+
+.exp div {
+    position: relative;
+    top: 25px;
+    font-weight: bold;
+
+}
+
+.white {
+    color: white;
+}
+
+.experience p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.text {
+    margin-top: 50px;
+}
+
+.ptag {
+    margin-top: 100px;
+    width: 180px;
+    /* overflow-wrap: break-word; */
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.zimage {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    height: 700px;
+    /* background-color: blue; */
+}
+
+.zimage h1 {
+
+    font-size: 45px;
+}
+
+.zimage p {
+    color: white;
+    margin: 5px auto;
+}
+
+.white1 {
+
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.parent {
+    /* border: 1px solid red; */
+    width: 600px;
+}
+
+.blue {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: blue;
+    /* border: 1px solid red; */
+    z-index: -1;
+    position: relative;
+    bottom: 400px;
+    left: 320px;
+
+}
+
+.yellow {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: rgb(255, 235, 17);
+    border: 1px solid red;
+    z-index: -2;
+    position: relative;
+    bottom: 480px;
+    left: 320px;
+
+}
+
+.brandlogos {
+    height: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.brand {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid rgba(128, 128, 128, 0.374);
+
+}
+
+#amazon {
+    position: relative;
+    left: 150px;
+    top: 160px;
+}
+
+#up {
+    position: relative;
+    left: 140px;
+    bottom: 150px;
+}
+
+#fi {
+    position: relative;
+    bottom: 270px;
+    right: 50px;
+}
+
+#s {
+    position: relative;
+    bottom: 170px;
+    left: 350px;
+}
+
+#fb {
+    position: relative;
+    top: 130px;
+    left: 140px;
+}
+
+.Faang {
+    margin-right: 150px;
+}
+
+.hire2 {
+    margin-top: 50px;
+    width: 200px;
+}
+
+.recent {
+    text-align: center;
+}
+
+.recent h1 {
+    font-size: 50px;
+}
+
+.group {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.portfolio {
+    margin: 20px 20px auto;
+    height: 330px;
+    width: 280px;
+    background-color: rgb(21 23 20);
+    border-radius: 15px;
+    border-top: 1px rgb(110, 110, 110) solid;
+    border-left: 1px rgb(110, 110, 110) solid;
+    transition: transform 300ms;
+    text-align: center;
+    color: white;
+}
+
+.portfolio:hover {
+    transform: translateY(-20px);
+}
+
+.viewButton {
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(21 23 20);
+    border-radius: 20px;
+    border-left: 3px solid rgb(36 144 99);
+    border-bottom: 3px solid rgb(36 144 99);
+    border-top: none;
+    border-right: none;
+    color: white;
+    font-size: 17px;
+
+}
+
+.viewButton:hover {
+    animation-name: view;
+    animation-duration: 500ms;
+
+    animation-fill-mode: forwards;
+}
+
+.viewButton a:hover {
+    color: rgb(60, 60, 252);
+}
+
+@keyframes view {
+    0% {}
+
+    100% {
+        border-top: 3px solid rgb(36 144 99);
+        border-right: 3px solid rgb(36 144 99);
+        border-left: none;
+        border-bottom: none;
+    }
+}
+
+.ework {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner {
+    background-color: rgb(74, 74, 74);
+    height: 280px;
+    width: 650px;
+    border-radius: 20px;
+    border: 5px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#visit {
+    cursor: pointer;
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    border: none;
+}
+
+.form {
+    margin: 200px 150px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.form h1 {
+    font-size: 40px;
+}
+
+.input {
+    width: 400px;
+    /* height: 30px; */
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 8px;
+    border: 3px solid rgb(255, 165, 30);
+}
+
+.send a {
+    color: white;
+    text-decoration: none;
+}
+
+.send:hover a {
+    color: rgb(255, 165, 30);
+    text-decoration: none;
+}
+
+svg {
+    z-index: -1;
+    /* margin-bottom: 0; */
+}
+
+.svg {
+    text-align: center;
+
+}
+
+.svg p {
+    position: relative;
+    top: 320px;
+    font-size: 20px;
+}
+
+.lower {
+    margin-top: -4px;
+    background-color: rgb(255, 196, 0);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.lower i {
+    margin: 50px 30px auto;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.grey {
+    color: rgb(110, 110, 110);
+}
+
+.nayap {
+    width: 150px;
+    margin-left: 75px;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.tweet {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+.ework h1 {
+    color: white;
+    font-size: 40px;
+    margin-right: 100px;
+}
+.seend{
+    margin-left: 170px;
+}
+
+@media screen and (max-width:400px) {
+    #navchild3 {
+        display: none;
+    }
+
+    .nav {
+        margin: 0px 20px auto;
+    }
+
+    #navchild1 {
+        margin-right: 60px;
+    }
+
+    #navchild1 h2 {
+        display: inline-block;
+        margin-right: 10px;
+        color: white;
+    }
+
+    .button {
+        height: 40px;
+        width: 80px;
+    }
+
+    .firstsec {
+        flex-direction: column;
+        margin-left: 25px;
+    }
+
+    .lefth1 {
+        width: 50px;
+    }
+
+    .left p {
+        width: 350px;
+        font-size: 12px;
+    }
+
+    .hire {
+        width: 130px;
+    }
+
+    .icons {
+        font-size: 13px;
+        margin-top: 100px;
+    }
+
+    .right {
+        margin-right: 50px;
+    }
+
+    .tweet {
+        position: static;
+
+        transform: scale(0.7);
+
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .abc1 p {
+        font-size: 12px;
+    }
+
+    .cv {
+        width: 200px;
+    }
+
+    .abc2 {
+        margin: 100px 0 auto;
+    }
+
+    .abc2,
+    .abc4,
+    .abc5 {
+        animation: none;
+    }
+
+    .emojis {
+        margin-left: 10px;
+        width: 350px;
+    }
+
+    .learn {
+        margin-left: 28%;
+        border: none;
+        margin-top: -15px;
+        background-color: white;
+        width: 150px;
+    }
+
+    .zimage {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        height: 700px;
+        width: 400px;
+    }
+
+    .Faang h1 {
+        width: 350px;
+    }
+
+    .Faang p {
+        color: rgb(110, 110, 110);
+        font-size: 12px;
+        width: 350px;
+    }
+
+    .hire2 {
+        width: 150px;
+    }
+
+    .parent {
+        margin-top: 150px;
+        transform: scale(0.6);
+        position: relative;
+        bottom: 247px;
+        right: 144px;
+
+    }
+
+    .white1 .blue {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .recent {
+        margin-top: 400px;
+
+    }
+
+    .group {
+        margin-left: 40px;
+
+    }
+
+    .portfolio {
+        animation: none;
+    }
+
+    .ework {
+        margin-left: 40px;
+    }
+    .ework h1{
+        width: 400px;
+        margin-right: 0px;
+    }
+    .outer{
+        transform: scale(0.8);
+    }
+    .form{
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    .input{
+        width: 300px;
+        margin-left: 20px;
+    }
+    .seend{
+        margin-left: 137px;
+    }
+    .svg p {
+        position: relative;
+        top: 120px;
+        font-size: 13px;
+    }
+
+
+
+}
